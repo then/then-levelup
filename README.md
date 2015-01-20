@@ -13,10 +13,17 @@ Promise based leveldb interface
 ## Usage
 
 ```js
-var level = require('level'); // having run npm install level
-var thenLevelup = require('then-levelup');
-var db = level('./mydb');
+// having run npm install level
+var db = require('then-levelup')(require('level')('./mydb'));
+
 // use like level-up except APIs return promises instead of taking callbacks
+db.put('foo', 'bar').then(function () {
+  return db.get('foo');
+}).then(function (value) {
+  assert(value === 'bar');
+}).done(function () {
+  console.log('tests passed');
+});
 ```
 
 ## License
