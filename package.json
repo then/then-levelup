@@ -1,0 +1,22 @@
+{
+  "name": "then-levelup",
+  "version": "0.0.0",
+  "description": "Promise based leveldb interface",
+  "keywords": [],
+  "dependencies": {
+    "promise": "^6.1.0"
+  },
+  "devDependencies": {
+    "levelup": "^0.19.0",
+    "memdown": "^1.0.0"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ForbesLindesay/then-levelup.git"
+  },
+  "author": "ForbesLindesay",
+  "license": "MIT"
+}
