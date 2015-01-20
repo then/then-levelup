@@ -2,8 +2,8 @@
 
 Promise based leveldb interface
 
-[![Build Status](https://img.shields.io/travis/ForbesLindesay/then-levelup/master.svg)](https://travis-ci.org/ForbesLindesay/then-levelup)
-[![Dependency Status](https://img.shields.io/gemnasium/ForbesLindesay/then-levelup.svg)](https://gemnasium.com/ForbesLindesay/then-levelup)
+[![Build Status](https://img.shields.io/travis/then/then-levelup/master.svg)](https://travis-ci.org/then/then-levelup)
+[![Dependency Status](https://img.shields.io/gemnasium/then/then-levelup.svg)](https://gemnasium.com/then/then-levelup)
 [![NPM version](https://img.shields.io/npm/v/then-levelup.svg)](https://www.npmjs.org/package/then-levelup)
 
 ## Installation
