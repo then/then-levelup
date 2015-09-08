@@ -29,6 +29,6 @@ function then(db) {
     createReadStream: db.createReadStream.bind(db),
     createKeyStream: db.createKeyStream.bind(db),
     createValueStream: db.createValueStream.bind(db),
-    createWriteStream: db.createWriteStream.bind(db)
+    createWriteStream: db.createWriteStream && db.createWriteStream.bind(db)
   };
 }
